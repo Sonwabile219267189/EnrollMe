@@ -6,10 +6,10 @@
 
 <body>
 
-<h1>Welcome to Enroll.Me!!!<h1>
+<h1>Welcome to Enroll.Me!!!</h1>
 
 <!-- Links to other pages -->
-
+<a href = "Students/students.html">Students</a>
 
 </body>
 
