@@ -6,15 +6,15 @@
 
 <Body>
 
-    <!--Form to add the Student-->
+    <!--Form to add the Student to database-->
 
-    <form>
+    <form action = "send_Student_Data_inc.php" method = "POST">
 
         <h1>Add Student</h1>
-        <input type ="text" placeholder="First Name"></br>
-        <input type = "text" placeholder = "Surname"></br>
-        <input type = "text" placeholder = "Student Number"></br>
-        <input type = "button" value = "Add"><input type = "button" value = "Cancel">
+        <input type ="text" placeholder="First Name" name = "firstName"></br>
+        <input type = "text" placeholder = "Surname" name = "lastName"></br>
+        <input type = "text" placeholder = "Student Number" name = "studentNumber" ></br>
+        <input type = "submit" name = "submit" value = "Add"><input type = "button" value = "Cancel">
 
     </form>
 </Body>
