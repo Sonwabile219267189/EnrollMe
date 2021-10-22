@@ -1,6 +1,9 @@
 <?php
 /**
+ * send_Student_Data_inc.php
  * This file captures the data in the addStudent.html file and send it to the database
+ * Author: Sonwabile Gxoyiya
+ * Date: 22 October 2021
  */
 
 
