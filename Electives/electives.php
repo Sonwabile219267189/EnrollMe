@@ -16,7 +16,7 @@ require "../database_conn_inc.php";
 </head>
 <body>
     <!--Link to pages -->
-    <button type = "button" onclick = "document.location = 'addElective.html'">Add Student</button>
+    <button type = "button" onclick = "document.location = 'addElective.html'">Add Elective</button>
     <p>Display a list of Electives</p>
 
     <!--Table of Electives-->

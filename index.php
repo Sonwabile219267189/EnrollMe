@@ -9,7 +9,8 @@
 <h1>Welcome to Enroll.Me!!!</h1>
 
 <!-- Links to other pages -->
-<a href = "Students/students.html">Students</a>
+<a href = "Students/students.php">Students</a>
+<a href = "Electives/electives.php">Electives</a>
 
 </body>
 

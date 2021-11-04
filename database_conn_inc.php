@@ -21,7 +21,7 @@ if ($connection->connect_error){
     die("Connection failed: " . $connection->connect_error);
 }
 else {
-    echo "Connection Made. ";
+    //echo "Connection Made. ";
 }
 
 //Testing the connection by retrieving data
