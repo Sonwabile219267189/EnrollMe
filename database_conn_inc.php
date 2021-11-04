@@ -1,7 +1,10 @@
 <?php 
 
 /**
+ * database_conn_inc.php
  * This file is used to connect to the database
+ * Author: Sonwabile Gxoyiya
+ * Date: 22 October 2021
  */
 
  
