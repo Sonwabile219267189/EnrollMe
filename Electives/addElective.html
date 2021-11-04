@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+addElective.html
+This file has a form to collect Information to record a new Elective.
+Author: Sonwabile Gxoyiya (219267189)
+Date: 4 October 2021
+-->
+<head>
+    <title>Add Elective</title>
+</head>
+
+<body>
+
+
+    <form action = "send_Elective_Data_inc.php" method = "POST">
+        <h1>Add an Elective</h1>
+        <input type = "text" placeholder = "Enter Name of Elective" name = "electiveName"></br>
+        <input type = "text" placeholder = "Enter Elective Code" name = "electiveCode"></br>
+        <input type = "text" placeholder = "Enter Pricing" name = "electivePricing"></br>
+        <input type = "submit" name = "electiveSubmit" value = "Add"><button type = "button" value = "Cancel" onclick = "document.location = 'electives.php'">Cancel</button>
+    </form>
+</body>
+
+</html>
