@@ -49,7 +49,7 @@ require "../database_conn_inc.php";
                         . "<td>" . $row['student_Surname'] . "</td>" 
                         . "<td>" . $row['student_Number'] ."</td>"
                         . "<td>" . "<input type = \"button\" value = \"Edit\">" . "</td>"
-                        . "<td>" . "<input type = \"button\" value = \"Delete\">" . "</td>"
+                        . "<td>" . "<a href = 'delete_Student.php?student_ID=" . $row['student_ID'] . "'>Delete</a>". "</td>"
                         . "</tr>";
                     }
                     
